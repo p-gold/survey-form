@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 id="title">AlcWithGoogle survey form</h3>
+            <p id="description">Let us know what you ve learnt in the AlcWithGoogle 4.0 so far</p>
+        </div>
+        <form action="" id="survey-form">
+            <div class="details">
+                <!-- space for name -->
+                <div class="detail-field">
+                    <p>*Name: </p>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="detail-field">
+                    <p>*Email: </p>
+                    <input type="email" placeholder="email" validate>
+                </div>
+                <div class="detail-field">
+                    <p>*Age:</p>
+                    <input type="number" placeholder="Age" min="2" max="3" validate>
+                </div>
+            </div>
+            <!-- path space (front-end or backend) -->
+            <div id="stack">
+                <h4>which stack do you came from</h4>
+                <select name="path" id="dropdown">
+                    <option value="front-end">Front-end</option>
+                    <option value="backend">Backend</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <!-- radion btn div starts here -->
+            <div id="recommend">
+                <h4>How has your knowledge improved so far</h4>
+                <div class="item" name="btn">
+                    <input type="radio">
+                    <p>Very well</p>
+                </div>
+                <div class="item" name="btn">
+                    <input type="radio">
+                    <p>Better than i was</p>
+                </div>
+                <div class="item" name="btn">
+                    <input type="radio">
+                    <p>Little change</p>
+                </div>
+                <!-- end of radio btn div -->
+            </div>
+            <div id="checkbox">
+                <h4>what where the problems you encountered during this journey ? </h4>
+                <div class="check">
+                    <input type="checkbox" value="problem with gradr">
+                    <p>Problem with gradr</p>
+                </div>
+                <div class="check">
+                    <input type="checkbox" value="poor mentorship">
+                    <p>Poor mentorship</p>
+                </div>
+                <div class="check">
+                    <input type="checkbox" value="Bad network">
+                    <p>Bad network</p>
+                </div>
+                <div class="check">
+                    <input type="checkbox" value="Electricity issues">
+                    <p>Electricity issues</p>
+                </div>
+                <div class="check">
+                    <input type="checkbox" value="NO motivation">
+                    <p>No motivation</p>
+                </div>
+            </div>
+            <div id="comments">
+                <p>Any comments or sugestions? use the box below</p>
+                <textarea name="comment" id="comments-box" cols="30" rows="15"
+                    placeholder="Your comments here..."></textarea>
+                <button id="submit">submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

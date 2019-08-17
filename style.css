@@ -1,0 +1,151 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(241, 241, 241, 0.4);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    box-shadow: 1px -2px 5px -1px rgb(177, 177, 177);
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+
+}
+
+
+
+#title {
+    background: #1a73e8;
+    color: white;
+    margin-bottom: 0;
+    padding: 19px;
+    border-radius: 10px 10px 0 0;
+}
+
+#description{
+    background: #005bd3;
+    margin-top: 0;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.header {
+    text-align: center;
+}
+
+
+.detail-field{
+    display: flex;
+    align-items: baseline;
+    padding: 10px;
+    /* border: 2px solid rgb(99, 119, 187); */
+    width: 50%;
+    margin: 3px auto;
+    margin-left: 11rem;
+}
+
+.detail-field p{
+    width: 10%;
+    margin-right: 20px;
+}
+
+.details input {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+    background: rgba(238, 238, 238, 0.3);
+    border-bottom: 1px solid rgb(21, 114, 219);
+    width: 100%;
+}
+
+
+
+/* dropdown starts here */
+#stack {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    margin-top: 20px;
+    height: 3rem;
+
+}
+
+#stack option{
+    
+}
+
+#stack select {
+    margin-left: 20px;
+}
+
+/* radio btn styling starts here */
+
+#recommend {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 18px;
+}
+
+.item {
+    display: flex;
+    align-items: baseline;
+}
+
+.item p {
+    margin-left: 8px;
+}
+
+/* radio button styling ends here */
+
+/* checkbox styling starts here */
+#checkbox {
+    text-align: center;
+}
+
+.check,
+.item {
+    padding-left: 10rem;
+}
+
+.check {
+    display: flex;
+    align-items: baseline;
+}
+
+.check p {
+    margin-left: 8px;
+}
+
+/* checkbox styling ends here */
+
+
+/* comments section styling here */
+#comments {
+    margin-left: 10rem;
+}
+
+
+#comments-box{
+    outline: none;
+}
+
+#submit{
+    display: block;
+    width: 20%;
+    padding: 5px;
+    margin-top: 4px;
+    background: #1a73e8;
+    color: white;
+    font-size: 0.7rem;
+    border: 2px solid #1a73e8;
+    border-radius: 3px;
+}
