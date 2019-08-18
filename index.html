@@ -19,16 +19,16 @@
             <div class="details">
                 <!-- space for name -->
                 <div class="detail-field">
-                    <p>*Name: </p>
-                    <input type="text" placeholder="Name">
+                   <label for="" id="name-label"> <p>*Name: </p></label>
+                    <input type="text" placeholder="Name" id="name">
                 </div>
                 <div class="detail-field">
-                    <p>*Email: </p>
-                    <input type="email" placeholder="email" validate>
+                    <label for="" id="email-label"><p>*Email: </p></label>
+                    <input type="email" placeholder="email" id="email" validate required>
                 </div>
                 <div class="detail-field">
-                    <p>*Age:</p>
-                    <input type="number" placeholder="Age" min="2" max="3" validate>
+                   <label for="" id="number-label"><p>*Age:</p></label>
+                    <input type="number" id="number" placeholder="Age" min="2" max="3" required validate>
                 </div>
             </div>
             <!-- path space (front-end or backend) -->
@@ -43,16 +43,16 @@
             <!-- radion btn div starts here -->
             <div id="recommend">
                 <h4>How has your knowledge improved so far</h4>
-                <div class="item" name="btn">
-                    <input type="radio">
+                <div class="item">
+                    <input type="radio" name="btn">
                     <p>Very well</p>
                 </div>
-                <div class="item" name="btn">
-                    <input type="radio">
+                <div class="item">
+                    <input type="radio" name="btn">
                     <p>Better than i was</p>
                 </div>
-                <div class="item" name="btn">
-                    <input type="radio">
+                <div class="item">
+                    <input type="radio" name="btn">
                     <p>Little change</p>
                 </div>
                 <!-- end of radio btn div -->
@@ -81,13 +81,14 @@
                 </div>
             </div>
             <div id="comments">
-                <p>Any comments or sugestions? use the box below</p>
+                <p>Any comments or sugesticomponents,ons? use the box below</p>
                 <textarea name="comment" id="comments-box" cols="30" rows="15"
                     placeholder="Your comments here..."></textarea>
                 <button id="submit">submit</button>
             </div>
         </form>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -19,12 +19,18 @@ body {
 
 
 
-#title {
+ #title {
     background: #1a73e8;
     color: white;
     margin-bottom: 0;
     padding: 19px;
     border-radius: 10px 10px 0 0;
+} 
+
+.sticky{
+    position: fixed;
+    top: -30px;
+    width: 70%;
 }
 
 #description{
@@ -33,11 +39,12 @@ body {
     color: white;
     padding: 20px;
     font-size: 16px;
-}
+} 
 
-.header {
+ .header {
     text-align: center;
-}
+    padding: -23px
+} 
 
 
 .detail-field{
