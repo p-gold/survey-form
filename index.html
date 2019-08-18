@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h2 id="title">AlcWithGoogle survey form</h3>
+            <h1 id="title">AlcWithGoogle survey form</h1>
             <p id="description">Let us know what you ve learnt in the AlcWithGoogle 4.0 so far</p>
         </div>
         <form action="" id="survey-form">
@@ -20,7 +20,7 @@
                 <!-- space for name -->
                 <div class="detail-field">
                    <label for="" id="name-label"> <p>*Name: </p></label>
-                    <input type="text" placeholder="Name" id="name">
+                    <input type="text" placeholder="Name" id="name" required>
                 </div>
                 <div class="detail-field">
                     <label for="" id="email-label"><p>*Email: </p></label>
@@ -44,15 +44,15 @@
             <div id="recommend">
                 <h4>How has your knowledge improved so far</h4>
                 <div class="item">
-                    <input type="radio" name="btn">
+                    <input type="radio" name="btn" value="very-well">
                     <p>Very well</p>
                 </div>
                 <div class="item">
-                    <input type="radio" name="btn">
+                    <input type="radio" name="btn" value="better">
                     <p>Better than i was</p>
                 </div>
                 <div class="item">
-                    <input type="radio" name="btn">
+                    <input type="radio" name="btn" value="little">
                     <p>Little change</p>
                 </div>
                 <!-- end of radio btn div -->
